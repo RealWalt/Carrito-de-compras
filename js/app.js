@@ -1,4 +1,4 @@
-// Variables 
+// Variables
 const carrito = document.querySelector('#carrito');
 const contenedorCarrito = document.querySelector('#lista-carrito tbody');
 const vaciarCarritoBtn = document.querySelector('#vaciar-carrito');
@@ -7,7 +7,7 @@ let articulosCarrito = [];
 
 cargarEventListeners();
 function cargarEventListeners() {
-    //Cuando agregas un curso apretando 'Agregando curso'
+    // Cuando agregas un curso apretando 'Agregando curso'
     listaCursos.addEventListener('click', agregarCurso);
 
     //Eliminar cursos del carrito
