@@ -108,7 +108,7 @@ function carritoHTML() {
 
         `;
 
-        //Agrega el HTML del carrito en el tbody
+        // Agrega el HTML del carrito en el tbody
         contenedorCarrito.appendChild(row);
     })
 }
