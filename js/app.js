@@ -73,7 +73,7 @@ function leerDatosCurso(curso) {
         articulosCarrito = [...cursos];
 
      }else {
-             // agrega elementos al arreglo de carrito
+             // añadir elementos al arreglo de carrito
                 articulosCarrito = [...articulosCarrito, infoCurso];
 
      }
