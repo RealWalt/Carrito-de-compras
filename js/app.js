@@ -36,7 +36,7 @@ function eliminarCurso(e) {
     if(e.target.classList.contains('borrar-curso')) {
         const cursoId = e.target.getAttribute('data-id');
 
-        // elimina del arreglo articulosCarrtio por el data id
+        // Elimina del arreglo articulosCarrtio por el data id
         articulosCarrito = articulosCarrito.filter( curso => curso.id !== cursoId);
 
         carritoHTML(); //Iterar osbre el carrito y mostrar su HTML
@@ -117,7 +117,7 @@ function carritoHTML() {
 //elimina los cursos del tbody
 function limpiarHTML() {
     //Forma lenta
-    // contenedorCarrito.innerHTML = '';
+    //contenedorCarrito.innerHTML = '';
 
     while(contenedorCarrito.firstChild) {
         contenedorCarrito.removeChild(contenedorCarrito.firstChild)
