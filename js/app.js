@@ -92,7 +92,7 @@ function carritoHTML() {
     limpiarHTML();
 
     // recorre el carrito y genera el html
-
+    //William maldito homosexual
     articulosCarrito.forEach( curso => {
         const{imagen, titulo, precio, cantidad, id} = curso;
         console.log(curso);
