@@ -47,7 +47,7 @@ function eliminarCurso(e) {
 function leerDatosCurso(curso) {
     console.log(curso);
 
-     // crear un objeto con el contenido del curso actual
+     // Crear un objeto con el contenido del curso actual
      const infoCurso = {
         imagen: curso.querySelector('img').src,
         titulo: curso.querySelector('h4').textContent,
