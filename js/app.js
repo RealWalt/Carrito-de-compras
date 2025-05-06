@@ -13,7 +13,7 @@ function cargarEventListeners() {
     // Eliminar cursos del carrito
     carrito.addEventListener('click', eliminarCurso);
 
-    // Vaciar carrito
+    // Vaciar carrito 
     vaciarCarritoBtn.addEventListener('click', () =>{
         articulosCarrito = []; // Reseteamos el arreglo
 
