@@ -17,7 +17,7 @@ function cargarEventListeners() {
     vaciarCarritoBtn.addEventListener('click', () =>{
         articulosCarrito = []; // Reseteamos el arreglo
 
-        limpiarHTML(); // eliminamos todo el html
+        limpiarHTML(); // eliminamos todo el html 
     })
 
 }
@@ -25,7 +25,7 @@ function cargarEventListeners() {
 // Funciones
 function agregarCurso (e) {
     e.preventDefault();
-    if(e.target.classList.contains('agregar-carrito')) {         //Evitar event bubling 
+    if(e.target.classList.contains('agregar-carrito')) {      //Evitar event bubling 
         const cursoSeleccionado = e.target.parentElement.parentElement;
        leerDatosCurso(cursoSeleccionado);
     }
